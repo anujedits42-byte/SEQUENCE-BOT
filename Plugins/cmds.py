@@ -39,7 +39,7 @@ async def add_admins(client: Client, message: Message):
 
         if not admins:
             return await pro.edit(
-                "<b>Usᴇ ɪᴛ ʟɪᴋᴇ ᴛʜɪs:</b> <code>/add_admin 1234567890</code>\n<b>Oʀ:</b> <code>/add_admin 1234567890 9876543210</code>",
+                "<b>Usᴇ ɪᴛ ʟɪᴋᴇ ᴛʜɪs:</b> <code>/add_admin 1234567890</code>\n<b>Oʀ:</b> <code>/add_admin 1234567890 7892805795</code>",
                 reply_markup=reply_markup
             )
 
