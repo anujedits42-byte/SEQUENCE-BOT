@@ -5,7 +5,7 @@ TG_BOT_TOKEN = os.environ.get("BOT_TOKEN", "8676575630:AAF4zvxn1_CvdJAUer0ou_ORV
 APP_ID = int(os.environ.get("APP_ID", "34446649"))
 API_HASH = os.environ.get("API_HASH", "8dc570c08d8e35e88fb9bfc73c65d7fa")
 OWNER_ID = int(os.environ.get("OWNER_ID", "7892805795"))
-PORT = os.environ.get("PORT", "8080")
+PORT = os.environ.get("PORT", "5000")
 DB_URL = os.environ.get("DB_URI", "mongodb+srv://Anujedit:Anujedit@cluster0.7cs2nhd.mongodb.net/?appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "Anujedit")
 BOT_USERNAME = os.environ.get("BOT_USERNAME", "file_sequence_ak_bot")
