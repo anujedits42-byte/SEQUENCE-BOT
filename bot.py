@@ -9,10 +9,10 @@ from Plugins.route import web_server
 import pyrogram.utils
 from aiohttp import web
 
-pyrogram.utils.MIN_CHANNEL_ID = -1002449417637
+pyrogram.utils.MIN_CHANNEL_ID = -1003515041061
 
 name = """
-Files sequence bot started ✨ Credit:- @CantarellaBots
+Files sequence bot started ✨ Credit:- @anujedits76
 """
 
 class Bot(Client):
@@ -64,7 +64,7 @@ class Bot(Client):
                 photo="https://ibb.co/DH3N4Lyr",
                 caption="**I ʀᴇsᴛᴀʀᴛᴇᴅ ᴀɢᴀɪɴ !**",
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/cantarellabots")]]
+                    [[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/log_channel_a")]]
                 )
             )
         except Exception as e:
